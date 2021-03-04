@@ -1,0 +1,173 @@
+{
+  "id": "6e0baa36-09a8-4254-8580-da9cf031d317",
+  "version": "2.0",
+  "name": "testcase 1",
+  "url": "http://test-form.sibirix.ru/",
+  "tests": [{
+    "id": "371c410f-62a7-43bb-989a-7b9352db7b1b",
+    "name": "testcase skillbox",
+    "commands": [{
+      "id": "71507769-b0a3-425b-aa9d-c0e25221e15c",
+      "comment": "",
+      "command": "open",
+      "target": "http://test-form.sibirix.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a06a8fe4-94bd-452b-93f8-f9ac03c837ee",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1039x694",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d82befe-0015-44d6-aeec-bc86a06e5168",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=label:nth-child(1) > .required", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d97cc1a4-ed45-4722-9c9f-c328cd3803ee",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=label:nth-child(1) > .required", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Александра"
+    }, {
+      "id": "c731bfe4-be21-4b91-9b7f-c6ad939db500",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.is-email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55689cd8-eb70-404b-a8f7-3a397b6d7abb",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.is-email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "azinovey@mail.ru"
+    }, {
+      "id": "7fbca8ad-751c-4064-bf26-f0c5e352bd39",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=label:nth-child(3) > .required", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f17ed58e-5cce-4b01-a5a1-7eca0898ead6",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=label:nth-child(3) > .required", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "89516992918"
+    }, {
+      "id": "8c91fbb6-1c8b-4dc0-9ebd-b7c6db202665",
+      "comment": "",
+      "command": "click",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dc9449c-ab8b-403e-b490-ee2d26798ea9",
+      "comment": "",
+      "command": "type",
+      "target": "name=message",
+      "targets": [
+        ["name=message", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Мой проект отображает суть моих знаний."
+    }, {
+      "id": "c6c3c716-d652-448d-9eb8-2632ad3cd7b6",
+      "comment": "",
+      "command": "click",
+      "target": "name=document",
+      "targets": [
+        ["name=document", "name"],
+        ["css=.file-input", "css:finder"],
+        ["xpath=//input[@name='document']", "xpath:attributes"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2196319-a92b-4613-92cb-8c55816aa4b2",
+      "comment": "",
+      "command": "type",
+      "target": "name=document",
+      "targets": [
+        ["name=document", "name"],
+        ["css=.file-input", "css:finder"],
+        ["xpath=//input[@name='document']", "xpath:attributes"],
+        ["xpath=//label[5]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\_mindmap.pdf"
+    }, {
+      "id": "fbd2b4d3-aba1-4e0f-ada1-e121911af7dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit",
+      "targets": [
+        ["css=.submit", "css:finder"],
+        ["xpath=//input[@value='Оставить заявку']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "635cb7ae-00d2-4522-8437-5fb559ef22b9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d542522b-1ac0-43fa-9092-b0cb22ff781e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["371c410f-62a7-43bb-989a-7b9352db7b1b"]
+  }],
+  "urls": ["http://test-form.sibirix.ru/"],
+  "plugins": []
+}
