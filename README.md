@@ -3,6 +3,6 @@
 Instruction:
 1. Upload Mozilla Firefox
 2. Add Selenium IDE extension for Mozilla browser 
-3. Save my file 
-4. Open Selenium and choose "Open an existing project"
-5. Press on play
+4. Download zip archive with my file "testcase 1.side" from https://github.com/Alya2211/Selenium-autotest/archive/main.zip 
+5. Open Selenium and choose "Open an existing project"
+6. Press on play
