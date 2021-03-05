@@ -9,6 +9,6 @@ Instruction:
 6. Press ctrl+r or on play "run current test"
 
 (File loaded into autotest)
-1. Open zip archive with my file "_mindmap.pdf" from https://github.com/Alya2211/Selenium-autotest/archive/main.zip 
+1. Open zip archive and choose my file "_mindmap.pdf" from https://github.com/Alya2211/Selenium-autotest/archive/main.zip 
 2. Place this file in the field "Attach file" in the autotest
 3. Press ctrl+r or on play "run current test"
