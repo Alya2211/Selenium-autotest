@@ -6,3 +6,4 @@ Instruction:
 4. Download zip archive with my file "testcase 1.side" from https://github.com/Alya2211/Selenium-autotest/archive/main.zip 
 5. Open Selenium and choose "Open an existing project"
 6. Press ctrl+r or on play "run current test"
+7. Open zip archive with my file "_mindmap.pdf" from https://github.com/Alya2211/Selenium-autotest/archive/main.zip (File loaded into autotest) 
